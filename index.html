@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+</head>
+<div id="wrapper">
+    <div id="quote-box">
+        <div class="quote-text">
+            <span id="text"></span>
+        </div>
+        <div class="quote-author">- <span id="author"></span></div>
+        <div class="buttons">
+            <a class="button" id="tweet-quote" title="Tweet this quote!" target="_top" href="twitter.com/intent/tweet">
+                <i class="fa fa-twitter"></i>
+            </a>
+
+            <button class="button" onclick="randomQuote()" id="new-quote">New quote</button>
+        </div>
+
+    </div>
+    <div class="footer">Made By <a href="https://codepen.io/auncia/"><span style="color:red;weight:900;">Adya</span> with ❤</a></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+<script src="script.js"></script>
+
+</html>
